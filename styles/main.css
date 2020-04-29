@@ -1,0 +1,282 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact {
+  font-size: 2rem;
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 300px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #ffe500;
+    animation: lemon-bg 10s infinite running;
+  }
+  @keyframes lemon-bg {
+    0% {
+      background: #ffe500;
+    }
+    50% {
+      background: #fff8b9;
+    }
+    100% {
+      background: #ffe500;
+    }
+  }
+  .wrapper {
+    width: 300px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+  }
+  .deep {
+    clear: left;
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+  .deep svg,
+  .lemon svg {
+    height: 90px;
+    width: auto;
+    justify-content: space-around;
+  }
+  .d-colour {
+    fill: #ffe500;
+    animation: d-bg 10s infinite running;
+  }
+  @keyframes d-bg {
+    0% {
+      fill: #fff8b9;
+    }
+    30% {
+      fill: #ffe500;
+    }
+    70% {
+      fill: #fff8b9;
+    }
+    90% {
+      fill: #ffe500;
+    }
+  }
+  .e-colour1 {
+    fill: #ffe500;
+    animation: e1-bg 10s infinite running;
+  }
+  @keyframes e1-bg {
+    0% {
+      fill: #fff8b9;
+    }
+    50% {
+      fill: #ffe500;
+    }
+    100% {
+      fill: #fff8b9;
+    }
+  }
+  .e-colour2 {
+    fill: #ffe500;
+    animation: e2-bg 15s infinite running;
+  }
+  @keyframes e2-bg {
+    0% {
+      fill: #fff8b9;
+    }
+    30% {
+      fill: #ffe500;
+    }
+    70% {
+      fill: #fff8b9;
+    }
+    100% {
+      fill: #ffe500;
+    }
+  }
+  .p-colour {
+    fill: #ffe500;
+    animation: p-bg 3s infinite running;
+  }
+  @keyframes p-bg {
+    0% {
+      fill: #fff8b9;
+    }
+    50% {
+      fill: #ffe500;
+    }
+    100% {
+      fill: #fff8b9;
+    }
+  }
+  .l-colour {
+    fill: #ffe500;
+    animation: l-bg 15s infinite running;
+  }
+  @keyframes l-bg {
+    0% {
+      fill: #fff8b9;
+    }
+    20% {
+      fill: #ffe500;
+    }
+    80% {
+      fill: #fff8b9;
+    }
+    100% {
+      fill: #ffe500;
+    }
+  }
+  .e-colour3 {
+    fill: #ffe500;
+    animation: e3-bg 7s infinite running;
+  }
+  @keyframes e3-bg {
+    0% {
+      fill: #fff8b9;
+    }
+    60% {
+      fill: #ffe500;
+    }
+    80% {
+      fill: #fff8b9;
+    }
+  }
+
+  .m-colour {
+    fill: #ffe500;
+    animation: m-bg 20s infinite running;
+  }
+  @keyframes m-bg {
+    0% {
+      fill: #fff8b9;
+    }
+    20% {
+      fill: #ffe500;
+    }
+    80% {
+      fill: #fff8b9;
+    }
+    100% {
+      fill: #ffe500;
+    }
+  }
+  .o-colour {
+    stroke: #ffe500;
+    animation: o-bg 17s infinite running;
+  }
+  @keyframes o-bg {
+    00% {
+      stroke: #ffe500;
+    }
+    80% {
+      stroke: #fff8b9;
+    }
+    100% {
+      stroke: #ffe500;
+    }
+  }
+  .n-colour {
+    fill: #ffe500;
+    animation: n-bg 17s infinite running;
+  }
+  @keyframes n-bg {
+    20% {
+      fill: #fff8b9;
+    }
+    80% {
+      fill: #ffe500;
+    }
+    100% {
+      fill: #fff8b9;
+    }
+  }
+  .lemon {
+    text-align: center;
+    clear: both;
+    display: inline-block;
+  }
+  h1 {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff8b9; /*rgba(62, 90, 121, 0.59)*/
+  }
+  a:link,
+  a:hover,
+  a:visited {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff8b9;
+    text-decoration: none;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  .wrapper {
+    width: 375px;
+  }
+  .deep svg,
+  .lemon svg {
+    height: 120px;
+    width: auto;
+  }
+  h1 {
+    font-size: 38px;
+  }
+  a:link,
+  a:hover,
+  a:visited {
+    font-size: 24px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .wrapper {
+    width: 540px;
+  }
+  .deep svg,
+  .lemon svg {
+    height: 180px;
+    width: auto;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  a:link,
+  a:hover,
+  a:visited {
+    font-size: 34px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    width: 868px;
+  }
+  .deep svg,
+  .lemon svg {
+    height: 100%;
+    width: auto;
+  }
+  h1 {
+    font-size: 64px;
+  }
+  a:link,
+  a:hover,
+  a:visited {
+    font-size: 24px;
+  }
+}
